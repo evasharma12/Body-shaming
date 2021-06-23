@@ -68,6 +68,7 @@
 .stats-heading{
     font-size: 2.5rem;
     font-family: 'PT Serif', serif;
+    font-weight: bold;
     /* font-weight: 700; */
     /* text-align: center; */
     
@@ -205,11 +206,31 @@
 /* Footer section */
 /* footer section */
 
+#footer-section{
+    background-color: #fff;
+}
 #footer{
-    margin: 5% 15%;
+    padding: 5% 15%;
     text-align: center;
+    
 }
 .footer-icon{
     margin: 1%;
 }
 
+#bg-img1{
+    background-image: url("https://image.freepik.com/free-photo/white-heart-hands-little-girl_169016-3520.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+}
+#bg-img2{
+    background-image: url("https://as1.ftcdn.net/jpg/02/84/59/72/500_F_284597294_e3dUZ2pQpo2XaXuUHwnlDqVaq2IN5jBZ.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+}
