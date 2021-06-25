@@ -10,7 +10,7 @@ h2{
 #header{
     padding: 5% 0 5% 5% ;
     margin: 3% 15%;
-    background-color: #40E0D0;
+    background-color: #fee0cc;
 }
 
 
@@ -65,9 +65,9 @@ h2{
 
 
 #first-footer{
-    color: #fff;
+    color: black;
     margin-top: 0;
-    background-color: #40E0D0;
+    background-color: #fee0cc;
     padding: 2%;
     font-family: 'Courgette', cursive;
     font-weight: bold;
