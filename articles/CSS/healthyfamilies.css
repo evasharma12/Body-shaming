@@ -49,6 +49,7 @@ h2{
 }
 
 #body-parah{
+    
     padding: 5% 0 5% 5% ;
     margin: 3% 15%;
     text-align: justify;
@@ -56,12 +57,12 @@ h2{
 
 
 .body-parah-col{
+    padding: 5%;
+    border: 2px solid 	#C8C8C8;
     margin-top: 25%;
     text-align: justify;
 }
-.body-parah-col1{
-   
-}
+
 
 #first-footer{
     color: #fff;

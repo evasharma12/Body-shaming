@@ -1,9 +1,9 @@
 
 .big-heading{
     font-size: 3rem;
-    line-height: 2;
-    font-family: 'Courgette', cursive;
-    font-weight: bold;
+    line-height: 1.5;
+    font-family: 'PT Serif', serif;
+    font-weight: 500;
     color: white;
 }
 #logo-img{
@@ -13,23 +13,22 @@
     left: 3%;
     border-radius: 100%;
 }
-@media (max-width:935px){
-    .big-heading{
-        font-size: 3rem;
-        line-height: 1.5;
-        font-family: 'Courgette', cursive;
-        font-weight: bold;
-        color: white;
-        text-align: center;
-    }
-}
+
 #title{
-    background-color: #00B4D8;
+    background-image: url("https://image.freepik.com/free-photo/people-forming-star-shape-with-their-fingers_146671-18976.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    
+    background-size: cover;
+    background-color: #E0FFFF;
+    /* background-color: #00B4D8; */
 
 }
 
 .container-fluid{
-    padding: 3% 15% 3% 15%;
+    
+    padding: 3% 10% 3% 10%;
 }
 
 .title-box{
@@ -38,7 +37,7 @@
 
 
 .navbar{
-    padding: 0 0 4.5rem 0 ;
+    padding: 0 0 0 0 ;
 }
 /* Navigation Bar */
 .navbar-brand{
@@ -57,6 +56,23 @@
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
 }
+
+.title-row{
+    padding: 5% 20% 30% 20%;
+}
+.title-text{
+    
+    padding: 3%;
+    
+    background-color: #2a52be;
+}
+/* .title-image{
+    
+    padding-left: 10%;
+    padding-bottom: 5%;
+    
+    
+} */
 
 /* Stats sections */
 
@@ -158,7 +174,7 @@
 /* Surgeries section */
 
 #surgeries{
-    background-color: #FFD700;
+    background-color: #fee0cc;
 }
 .surgeries{
     margin-top: 3%;
@@ -173,6 +189,7 @@
     color: black;
 }
 #surg-parah{
+    color: black;
     font-family: 'Open Sans', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
@@ -206,16 +223,115 @@
 /* Footer section */
 /* footer section */
 
+.footer-col1{
+    background-color: #2a52be;
+    font-family: 'PT Serif', serif;
+    color: #fff;
+
+}
+#footer-heading{
+    padding-top: 15%;
+    font-size: 2rem;
+    color: #fff;
+}
+#footer-parah{
+    padding: 3% 20%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: #fff;
+}
+
+#footer-form{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding: 0 20%;
+}
+.firstname, .lastname{
+    text-align: left;
+}
+.email{
+    text-align: left;
+    margin-top: 7%;
+}
+.submit{
+    margin: 20% 0 20% 0;
+    border-radius: 0;
+}
+
+/* Footer column 2 */
+
+.footer-col2{
+    border: 1px solid black;
+    padding-left: 5%;
+    text-align: left;
+    background-color: #fff;
+    font-family: 'PT Serif', serif;
+    color: black;
+
+}
+#footer-heading2{
+    padding-top: 15%;
+    font-size: 2rem;
+    color: black;
+}
+#footer-parah2{
+    margin-top: 5%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    color: black;
+}
+#myinfo{
+    margin-top: 15%;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+}
+
+#links{
+    margin-top: 43%;
+    text-align: left;
+    font-size: 1.5rem;
+    color: #2a52be
+}
+.footer-icon{
+    margin: 7%;
+}
+.first{
+    margin-left: 0;
+}
+
+#footer-form2{
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 300;
+    padding:15% 30% 30% 0;
+}
+.submit2{
+    margin: 37% 0 40% 0;
+    background-color: #2a52be;
+    border-radius: 0;
+}
+
 #footer-section{
     background-color: #fff;
 }
 #footer{
-    padding: 5% 15%;
+    /* padding: 5% 15%; */
     text-align: center;
     
 }
-.footer-icon{
-    margin: 1%;
+.footer-col3{
+    padding-left: 0;
+}
+#footer-side{
+    margin-top: 100%;
+    text-align: center;
+    border-top : 1px solid black;
+    border-bottom : 1px solid black;
+    border-right : 1px solid black;
+}
+.footerbar-icon{
+    font-size: 1.2rem;
+    margin-top: 20%;
+    margin-bottom: 20%;
 }
 
 #bg-img1{
@@ -233,4 +349,25 @@
     background-attachment: fixed;
     
     background-size: cover;
+}
+
+@media (max-width:935px){
+    .big-heading{
+        position: static;
+        font-size: 3rem;
+        line-height: 1.5;
+        font-family: 'PT Serif', serif;
+        font-weight: bold;
+        color: white;
+        text-align: center;
+    }
+    .title-text{
+        border-radius: 10%;
+        padding: 3%;
+        position: static;
+        background-color: #2a52be;
+        top: 25%;
+        left: 42%;
+    }
+    
 }
