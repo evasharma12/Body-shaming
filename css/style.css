@@ -16,14 +16,14 @@
 }
 
 #title{
-    /* background-image: url("https://image.freepik.com/free-photo/people-forming-star-shape-with-their-fingers_146671-18976.jpg");
+    background-image: url("https://i.pinimg.com/564x/e8/30/b3/e830b3dedd7b6e79979b0d72b5c4a11f.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     
     background-size: cover;
-    background-color: #E0FFFF; */
-    background-color: #FFF7E9;
+    /* background-color: #E0FFFF;
+    background-color: #FFF7E9; */
 
 }
 
@@ -153,6 +153,7 @@
 }
 
 #form-heading{
+    
     font-family: 'PT Serif', serif;
     font-weight: 700;
     font-size: 2.5rem;
@@ -160,17 +161,21 @@
 }
 
 #form-parah{
+    
     font-family: 'PT Serif', serif;
     font-weight: 400;
     font-size: 1.2rem;
     text-align: right;
     font-style: italic;
+    font-weight: bold;
 }
 
 #form-parah2{
+    
     font-family: 'Montserrat', sans-serif;
     font-weight: 300;
     font-size: 1.2rem;
+    font-weight: bold;
     
 }
 /* Support section */
