@@ -141,6 +141,8 @@
 
 /* Form section */
 
+
+
 #form{
     background-image: url("https://i.pinimg.com/564x/9d/aa/79/9daa791cde80e37514b5cf083ae5f44d.jpg");
     background-position: center;
@@ -285,8 +287,17 @@
     font-weight: 300;
     padding: 0 20%;
 }
-.firstname, .lastname{
+.firstname, .lastname, .email{
     text-align: left;
+
+}
+.form-control{
+    border-radius: 0;
+    background-color: black;
+    border: none;
+    border-bottom: 1px solid #fff;
+    outline: none;
+    background: transparent;
 }
 .email{
     text-align: left;
@@ -298,6 +309,18 @@
 }
 
 /* Footer column 2 */
+.form2{
+    border-radius: 0;
+    background-color: #fff;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
+    background: transparent;
+}
+.email2{
+    text-align: left;
+    margin-top: 7%;
+}
 
 .footer-col2{
     border: 1px solid black;
@@ -376,6 +399,7 @@
     
     background-size: cover;
 }
+
 
 @media (max-width:935px){
     .big-heading{
