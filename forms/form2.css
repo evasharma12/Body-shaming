@@ -96,6 +96,12 @@ footer{
 .visibility{
     visibility: visible;
 }
+#footer-parah{
+    color: black;
+    font-size: 1.2rem;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 300;
+}
 
 @media (max-width: 1190px){
     .Q1, .Q2, .Q3, .Q4, footer{
